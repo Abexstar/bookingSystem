@@ -8,6 +8,7 @@ import BookPlanM from './component/BookPlanM';
 import BookPlanW from './component/BookPlanW';
 import BookPlanD from './component/BookPlanD';
 import BookPlanOs from './component/BookPlanOs';
+import MainPage from './component/MainPage';
 
 
 
@@ -19,7 +20,7 @@ function App() {
       <div>
            
         <Routes>
-           <Route path='/' element={<SignIn />} />
+           <Route path='/' element={<MainPage />} />
            <Route path='signin' element={<SignIn/>} />
            <Route path='login' element={<Login />} />
            <Route path='login/bookplan/bookplanw' element={<BookPlanW />} />

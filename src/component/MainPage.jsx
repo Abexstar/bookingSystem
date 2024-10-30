@@ -1,29 +1,29 @@
 import React from "react";
 import MalhubLogo from "../assets/MalhubLogo.png";
-import malhubWorkSpace from "../assets/malhubWorkSpace.jpg";
+import ImageSlider from "../component/ImageSlider";
+
 
 function MainPage() {
   return (
-    <div className="flex gap-20">
-      <div>
-        <img
-          className="w-[500px] h-[500px] rounded-full ml-16 mt-5"
-          src={malhubWorkSpace}
-          alt="image"
-        />
+    <div className="flex gap-40 pt-14 pl-10">
+      
+      <div className="w-[600px] h-[400px] rounded-2xl">
+          <ImageSlider />
       </div>
+
       <div className="mt-5">
+      <img
+          className="w-[300px] h-[100px] ml-40"
+          src={MalhubLogo}
+          alt="Logo"
+        />
         <i className="font-semibold">
           Makers and Leaders Hub <span>(MALhub) </span> <br />
           is an open, serene and beautiful shared workspace <br /> for startups and
           entrepreneurs at a lower cost than they <br /> would spend on space of their
           own. 
         </i>
-        <img
-          className="w-[300px] h-[100px] mt-[150px] ml-[150px]"
-          src={MalhubLogo}
-          alt="Logo"
-        />
+       
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import MalhubLogo from '../assets/MalhubLogo.png';
-import { useFlutterwave } from "flutterwave-react-v3";
 import Newnav from "../component/Newnav";
 
 
